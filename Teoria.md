@@ -79,7 +79,31 @@ $$\alpha_{i} \equiv \alpha + A_{i}'\gamma$$
 
 <br>
 
-Esto es un modelo de efectos fijos.
+Esto es un modelo de *efectos fijos*. Dados los datos de panel (i.e., datos repetidos por individuos) el efecto causal del estado sindical del individuo sobre los salarios pueden ser estimados tratando $\alpha_{i}$, el efecto fijo, como un parámetro a estimar. El *efecto año* $\lambda_{t}$ es otro parametro a estimar. Los efectos individuales no observados son coeficientes sobre variables *dummies* para cada individuo, mientras que los efectos anuales son coeficientes sobre variables *dummies* de tiempo.
+
+Podría parecer que hay muchísimos parámetros que estimar en el modelo de efectos fijos. Por ejemplo, el *Panel Survey of Income Dynamics* un conjunto de datos de panel ampliamente utilizado, incluye alrededor de 5'000 hombres en edad de trabajar observados durante unos 20 años, por lo que hay aproximadamente 5'000 efectos fijos. En la practica, sin embargo, esto no importa. Tratar los efectos individuales como parámetros a estimar es algebraicamente lo mismo que estimar en desviaciones de las medias. En otras palabras, primero calculamos los promedios individuales:
+
+<div>
+
+$$\overline{Y}_{i} = \alpha_i + \overline{\lambda} + \rho\overline{D}_i + \overline{X}_i\delta + \overline{\varepsilon}_i$$
+
+<div>
+
+restando la ecuación anterior de la ecuación (2.4) tenemos,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .
 .
 .

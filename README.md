@@ -3,11 +3,14 @@
 
 
 <div align="center">
-  <h1>Diferencias en diferencias</h1>
+  <h1>EFECTOS FIJOS</h1>
 </div>
  <br><br><br>
 <div align="center">
-  <p><em> Quiero que quede claro que no tengo idea de lo que estoy apunto de escribir, únicamente es una compilación de documentos que he encontrado sobre el método de estimación de diferencias en diferencias (DID). Por lo tanto, descubriremos juntos y al mismo tiempo (eso no es verdad) que hace cada una de las siguientes lineas. Por favor no juzgues, tuve la decencia de advertirte. </em></p>
+  <p><em> ¡HOLA! 
+  Soy yo de nuevo, vengo a borrar el README porque planeo empezar de nuevo, no por el modelo de Diferencias en diferencias, sino con un modelo de estimacion con efectos fijos. Esto responde a una llamada de atención de mi parte hacia mí mismo, Tuve una entrevista de trabajo y no supe la respuesta, creo que intentaron humillarme, así que aquí viene mi reivindicación. 
+  
+  Saludos, nos vemos pronto ;)</em></p>
 </div>
 <div align="center">
   <p>-C</p>
